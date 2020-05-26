@@ -41,9 +41,9 @@ def quebrar_captcha(base64):
 def previsao(img):
     captcha = ''
     global model
-    model = load_model('model\captcha_model.hdf5')
+    model = load_model('model/captcha_model.hdf5')
     model._make_predict_function()
-    with open('model\model_labels.dat', "rb") as f:
+    with open('model/model_labels.dat', "rb") as f:
         lb = pickle.load(f)
     if img is not None:
         for imgP in img:
