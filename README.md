@@ -13,7 +13,4 @@ Entregando uma resposta no formato:
   {
     "captcha": "sQ5b"
   }
-  
-  Link para conseguir o base64 para teste:
-  
-  http://portalhoras.stefanini.com/.net/index.ashx/getCaptcha
+
