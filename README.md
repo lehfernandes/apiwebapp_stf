@@ -11,6 +11,6 @@ A api recebe uma chamada post com um body json no formato com um parametro captc
 Entregando uma resposta no formato:
 
   {
-    "captcha": "sQ5b"
+    "captcha": "previsão"
   }
 
